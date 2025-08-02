@@ -35,6 +35,7 @@ export default function LeetcodeCard() {
           <Image
             src="https://leetcard.jacoblin.cool/Divyang_Pandoh02?theme=unicorn&font=Alegreya&ext=heatmap"
             alt="Leetcode Stats"
+            priority={true}
             fill
             style={{
               objectFit: "cover",

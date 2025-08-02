@@ -3,22 +3,21 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import "@styles/style.css";
 
-
 export default function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Divyang Pandoh </span>
-            from <span className="purple"> Jammu, India.</span>
+          <p>
+            Hi Everyone, I am <span className="purple">Divyang Pandoh</span> from{" "}
+            <span className="purple">Jammu, India.</span>
             <br />
-            Currently, {"I’m"} working as a Quantative Analyst at Evalueserve.
+            I’m currently working as a Quantitative Analyst at Evalueserve.
             <br />
-            Graduated in 2024 with a B.E. in Electrical and Computer Engineering from Thapar University, Patiala.
+            I graduated in 2024 with a B.E. in Electrical and Computer Engineering from Thapar University, Patiala.
             <br />
             <br />
-            When {"I’m"} not working or coding, {"you’ll"} find me:
+            When I’m not working or coding, you’ll find me:
           </p>
           <ul>
             <li className="about-activity">
