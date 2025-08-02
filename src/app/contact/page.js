@@ -1,0 +1,9 @@
+import Contact from "@components/Contact/Contact";
+export default function ResumePage() {
+
+    return (
+    
+    <Contact/>
+
+  );
+}
