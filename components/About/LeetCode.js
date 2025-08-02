@@ -33,15 +33,17 @@ export default function LeetcodeCard() {
           className="tech-icons leetcode-card"
         >
           <Image
-            src="https://leetcard.jacoblin.cool/Divyang_Pandoh02?theme=unicorn&font=Alegreya&ext=heatmap"
-            alt="Leetcode Stats"
-            priority={true}
-            fill
-            style={{
-              objectFit: "cover",
-              display: "block",
-            }}
-          />
+          src="https://leetcard.jacoblin.cool/Divyang_Pandoh02?theme=unicorn&font=Alegreya&ext=heatmap"
+          alt="Leetcode Stats"
+          priority={true}
+          fill
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P8//8/AwAI/AL+XjWbcwAAAABJRU5ErkJggg==" // 👈 tiny transparent blur
+          style={{
+            objectFit: "cover",
+            display: "block",
+          }}
+        />
         </div>
       </Link>
     </div>
