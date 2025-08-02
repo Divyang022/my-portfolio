@@ -6,9 +6,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export const metadata = {
   title: "Portfolio",
-  description: "Built with Next.js"
+  description: "Built with Next.js",
+  // 👇 Manually add preload for image
+  other: {
+    'link': [
+      {
+        rel: 'preload',
+        as: 'image',
+        href: 'https://leetcard.jacoblin.cool/Divyang_Pandoh02?theme=unicorn&font=Alegreya&ext=heatmap',
+      },
+    ],
+  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
